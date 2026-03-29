@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488121290/UFNXeZerCxBK5B7q3Aa4F7/logo_606fa3ca.png" alt="Brocolli Logo" width="280" height="280" />
+  <img src="https://i.postimg.cc/fT86cQHs/imresizer-logo.png" alt="Brocolli Logo" width="280" height="280" />
   
-  # Brocolli 🥦
+  # Brocolli 
   
   ### The Agentic Sandbox Computer
   
   A high-performance, C-based sandbox API designed for building autonomous AI agents.
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![GitHub Stars](https://img.shields.io/github/stars/your-username/brocolli?style=social)](https://github.com/ramdevcalope1995/brocolli)
-  [![GitHub Issues](https://img.shields.io/github/issues/your-username/brocolli)](https://github.com/ramdevcalope1995/brocolli/issues)
+  [![GitHub Stars](https://img.shields.io/github/stars/ramdevcalope1995/brocolli?style=social)](https://github.com/ramdevcalope1995/brocolli)
+  [![GitHub Issues](https://img.shields.io/github/issues/ramdevcalope1995/brocolli)](https://github.com/ramdevcalope1995/brocolli/issues)
   
 </div>
 
@@ -223,9 +223,9 @@ Brocolli is licensed under the **MIT License**. See [LICENSE](./LICENSE) for det
 ## 🔗 Links
 
 - **Website**: [brocolli.xyz](https://brocolli.xyz)
-- **GitHub**: [github.com/your-username/brocolli](https://github.com/ramdevcalope1995/brocolli)
-- **Issues**: [github.com/your-username/brocolli/issues](https://github.com/ramdevcalope1995/brocolliissues)
-- **Discussions**: [github.com/your-username/brocolli/discussions](https://github.com/ramdevcalope1995/brocolli/discussions)
+- **GitHub**: [github.com/ramdevcalope1995/brocolli](https://github.com/ramdevcalope1995/brocolli)
+- **Issues**: [github.com/ramdevcalope1995/brocolli/issues](https://github.com/ramdevcalope1995/brocolli/issues)
+- **Discussions**: [github.com/ramdevcalope1995/brocolli/discussions](https://github.com/ramdevcalope1995/brocolli/discussions)
 
 ## 🙏 Acknowledgments
 

@@ -22,7 +22,7 @@ Please be respectful and constructive in all interactions. We are committed to p
 
 2. **Clone your fork:**
    ```bash
-   git clone https://github.com/your-username/brocolli.git
+   git clone https://github.com/ramdevcalope1995/brocolli.git
    cd brocolli
    ```
 

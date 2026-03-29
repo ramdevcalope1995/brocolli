@@ -14,7 +14,7 @@ This guide covers how to deploy and run Brocolli using Docker and Docker Compose
 ### 1. Clone and Build
 
 ```bash
-git clone https://github.com/your-username/brocolli.git
+git clone https://github.com/ramdevcalope1995/brocolli.git
 cd brocolli
 ```
 

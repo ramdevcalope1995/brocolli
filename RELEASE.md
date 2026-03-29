@@ -2,7 +2,7 @@
 
 **Release Date:** March 29, 2026  
 **Status:** Beta  
-**Repository:** https://github.com/your-username/brocolli
+**Repository:** https://github.com/ramdevcalope1995/brocolli
 
 ---
 
@@ -182,7 +182,7 @@ DELETE /api/agent/:id                  - Cancel an agentic task
 ### Quick Start with Docker Compose
 
 ```bash
-git clone https://github.com/your-username/brocolli.git
+git clone https://github.com/ramdevcalope1995/brocolli.git
 cd brocolli
 docker-compose up --build
 ```
@@ -233,10 +233,10 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to contribute.
 
 ## 🔗 Links
 
-- **GitHub:** https://github.com/your-username/brocolli
+- **GitHub:** https://github.com/ramdevcalope1995/brocolli
 - **Website:** https://brocolli.xyz
-- **Issues:** https://github.com/your-username/brocolli/issues
-- **Discussions:** https://github.com/your-username/brocolli/discussions
+- **Issues:** https://github.com/ramdevcalope1995/brocolli/issues
+- **Discussions:** https://github.com/ramdevcalope1995/brocolli/discussions
 
 ---
 
@@ -257,7 +257,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to contribute.
 
 This is a **beta release** and is not recommended for production use without thorough testing. While the core functionality is stable, there may be breaking changes in future releases as we refine the API and add new features.
 
-Please report any bugs or issues on [GitHub Issues](https://github.com/your-username/brocolli/issues).
+Please report any bugs or issues on [GitHub Issues](https://github.com/ramdevcalope1995/brocolli/issues).
 
 ---
 
