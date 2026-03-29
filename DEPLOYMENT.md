@@ -90,7 +90,7 @@ Create or edit `quantclaw-config/quantclaw.json`:
     "logLevel": "info"
   },
   "llm": {
-    "model": "openai/gpt-4",
+    "model": "openai/gpt-5.4",
     "maxIterations": 15,
     "temperature": 0.7,
     "maxTokens": 4096

@@ -48,6 +48,10 @@ kore -c conf/brocolli.conf
 
 The API will be available at `http://localhost:8888`.
 
+## Deploying the API for usage
+
+Refer to the DEPLOYMENT.md documentation.
+
 ## 📖 API Reference
 
 ### Sandbox API
