@@ -1,0 +1,71 @@
+# Build artifacts
+kore
+brocolli
+build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbsdb
+.lvimrc
+
+# Logs
+logs/
+*.log
+
+# Data and databases
+data/
+*.db
+*.sqlite
+*.sqlite3
+brocolli_sandboxes.db
+brocolli_jobs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Kore specific
+*.module
+*.DSYM
+cert
+obj
+kodev/kodev
+kore.features
+src/version.c
+src/platform.h
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Node (if using sidecar)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Test coverage
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Temporary files
+*.tmp
+*.bak
+
+# Docker
+.dockerignore

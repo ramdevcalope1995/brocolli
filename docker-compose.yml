@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  # Brocolli API Server
+  brocolli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: brocolli-api
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - /var/run/docker.sock:/var/run/docker.sock  # For nested container support (optional)
+    environment:
+      - KORE_ENV=production
+      - LOG_LEVEL=info
+    cap_add:
+      - SYS_ADMIN
+      - SYS_PTRACE
+      - NET_ADMIN
+    security_opt:
+      - apparmor=unconfined
+      - seccomp=unconfined
+    networks:
+      - brocolli-network
+    depends_on:
+      - quantclaw
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8888/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+  # QuantClaw Agentic Gateway
+  quantclaw:
+    image: quantclaw/quantclaw:latest
+    container_name: quantclaw-gateway
+    ports:
+      - "18800:18800"  # WebSocket RPC Gateway
+      - "18801:18801"  # HTTP REST API / Dashboard
+    volumes:
+      - ./quantclaw-config:/root/.quantclaw
+      - ./quantclaw-workspace:/root/.quantclaw/agents/main/workspace
+    environment:
+      - QUANTCLAW_LOG_LEVEL=info
+    networks:
+      - brocolli-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:18801/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+networks:
+  brocolli-network:
+    driver: bridge
+
+volumes:
+  brocolli-data:
+  quantclaw-config:
+  quantclaw-workspace:
